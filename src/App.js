@@ -1,13 +1,13 @@
-// import logo from './logo.svg';
 import './App.css';
-import DataList from './Components/DataList';
-import Form from './Components/Form';
+import Heading from './Components/Heading';
+import Mainform from "./Components/MainForm";
+
 
 function App() {
   return (
     <>
-      <Form/>
-      {/* <DataList/> */}
+    <Heading/>
+    <Mainform/>
     </>
   );
 }
